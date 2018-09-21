@@ -29,3 +29,24 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://Dementiy@bitbucket.org/Dementiy/cs102.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
+def message():
+    print("Hello, World!")
+
+if __name__ == "__main__":
+    message()
+    (cs102) $ python3 hello.py
+Hello, World!
+(cs102) $ python3
+>>> import hello
+>>> hello.message()
+Hello, World!
+(cs102) $ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   hello.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
