@@ -1,0 +1,31 @@
+# cs102 $ git init
+Initialized empty Git repository in /Users/user/cs102/.git/
+(cs102) $ git remote add origin https://Dementiy@bitbucket.org/Dementiy/cs102.git
+(cs102) $ git add hello.py 
+(cs102) $ git commit -m 'Initial commit with my first program on Python'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account`s default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@Air-user.(none)')
+(cs102) $ git config --global user.email "Dementiy@yandex.ru"
+(cs102) $ git config --global user.name "Dmitriy"
+(cs102) $ git commit -m 'Initial commit with my first program on Python'
+[master (root-commit) b9c8e00] Initial commit with my first program on Python
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.py
+(cs102) $ git push -u origin master
+Password for 'https://Dementiy@bitbucket.org': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 258 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://Dementiy@bitbucket.org/Dementiy/cs102.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
