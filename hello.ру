@@ -50,3 +50,6 @@ Changes not staged for commit:
     modified:   hello.py
 
 no changes added to commit (use "git add" and/or "git commit -a")
+(cs102) $ git add hello.py 
+(cs102) $ git commit -m "Add function message()"
+(cs102) $ git push
